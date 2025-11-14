@@ -7,10 +7,52 @@
     width: 420px;
 }
 
+.modal {
+    width: 500px;
+    height: 770px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* margin-top: 25%; */
+    /* transform: translateY(-50%); */
+}
+
+.instructionForm {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+}
+
+.instructionForm input {
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: solid black 1px;
+}
+
+.send {
+    border: none;
+    background-color: #00d352;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 body {
     margin-top: 0px;
     margin: 0;
     padding: 0;
+    /* background-color: black; */
     /* overflow: hidden; */
 }
 
