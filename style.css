@@ -64,11 +64,11 @@ body {
     left: 743px;
     /* transform: translate(-50%); */
     z-index: 1;
-    background-color: #303942;
+    background-color: #2c3239;
     /* background-color: red; */
     /* outline: solid red 1px; */
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
     margin-bottom: 140px;
 }
 
@@ -405,15 +405,18 @@ body {
     font-weight: 700;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: .07px;
     word-spacing: -.4px;
     display: flex;
+    align-items: center;
     width: 214px;
 }
 
 .divKvitancia {
     letter-spacing: -.3px;
+    font-size: 13px;
+    padding-left: 3px;
 }
 
 .signifitureBank {
