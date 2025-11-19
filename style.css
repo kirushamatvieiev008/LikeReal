@@ -139,6 +139,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    width: 100px;
 }
 
 .nameSender {
@@ -157,6 +158,7 @@ body {
     /* background-color: red; */
     z-index: 2;
     font-size: 5px;
+    width: 69px;
 }
 
 .payer {
@@ -189,6 +191,7 @@ body {
     letter-spacing: 0px;
     /* margin-left: 5px; */
     /* color: rgb(0, 0, 0); */
+    width: 28px;
 }
 
 .bankPayer {
@@ -215,6 +218,7 @@ body {
     /* background-color: red; */
     z-index: 2;
     font-size: 5px;
+    width: 35px;
 
 }
 
@@ -274,6 +278,7 @@ body {
     z-index: 2;
     font-size: 5px;
     margin-left: 79px;
+    width: 122px;
 }
 
 .numbersAfterUA {
@@ -319,6 +324,7 @@ body {
     z-index: 2;
     font-size: 5px;
     margin-left: 47px;
+    width: 25px;
     /* margin-left: 47px; */
 }
 
@@ -369,19 +375,17 @@ body {
     z-index: 2;
     font-size: 5px;
     margin-left: 117px;
+    width: 53px;
 }
 
 .verticalLine {
     position: absolute;
-    /* left: 780px; */
-    /* left: 765px; */
-    /* left: 45px; */
-    /* left: 23px; */
-    top: 0;
-    height: 100%;
+    height: 100vh;
     width: 1px;
+    top: 0;
     /* background-color: red; */
-    z-index: 5;
+    left: 1117px;
+    z-index: 9;
 }
 
 .textDescription {
@@ -404,6 +408,8 @@ body {
     font-size: 13px;
     letter-spacing: .07px;
     word-spacing: -.4px;
+    display: flex;
+    width: 214px;
 }
 
 .divKvitancia {
@@ -425,6 +431,7 @@ body {
     /* font-size: 13px; */
     letter-spacing: -.1px;
     word-spacing: -.4px;
+    width: 45px;
 }
 
 .head {
@@ -441,6 +448,7 @@ body {
     /* left: 23px; */
     left: 787px;
     letter-spacing: .3px;
+    width: 49px;
 }
 
 .atAbank {
@@ -458,6 +466,7 @@ body {
     /* font-size: 13px; */
     letter-spacing: -.3px;
     word-spacing: -.4px;
+    width: 34px;
 }
 
 .nameDirector {
@@ -470,12 +479,13 @@ body {
     font-size: 5px;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-variation-settings: "wdth" 100;
     /* font-size: 13px; */
     letter-spacing: .5px;
     word-spacing: -.3px;
+    width: 50px;
 }
 
 .inicials {
@@ -501,7 +511,8 @@ body {
     /* left: 284px; */
     left: 1026px;
     /* 260 */
-    
+    width: 91px;
+
     color: #778396;
     z-index: 2;
     font-family: "Open Sans", sans-serif;
@@ -535,7 +546,7 @@ body {
     width: 46px;
 }
 
-.qrBonus{
+.qrBonus {
     position: absolute;
     top: 55px;
     left: 5px;
@@ -551,7 +562,7 @@ body {
 }
 
 .andFifty {
-        font-weight: 500;
+    font-weight: 500;
 }
 
 .button {
