@@ -76,6 +76,48 @@ body {
     position: relative;
 }
 
+.percents {
+    position: absolute;
+    z-index: 3;
+    left: 1075px;
+    top: 18px;
+    width: 71px;
+
+}
+
+.cardNumBefore {
+    position: absolute;
+    /* top: 1150px; */
+    z-index: 2;
+    color: white;
+    /* opacity: .7; */
+    font-size: 28px;
+    background-color: #172228;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    /* left: 145px; */
+}
+
+.rel {
+    position: absolute;
+    top: 1150px;
+    z-index: 2;
+    background-color: #172228;
+    left: 145px;
+}
+
+.ball {}
+
+.trans {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 1100px;
+
+}
+
 .mainPhoto2 {
     position: relative;
     top: -913px;
@@ -92,6 +134,29 @@ body {
     transform: translate(-50%);
     top: 75px;
     z-index: 2;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 774px;
+    top: 15px;
+    z-index: 3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .7px;
+    background-color: black;
+    width: 44.2px;
+}
+
+.dots {
+    /* height: 10px; */
+    margin-top: -2.5px;
 }
 
 /* .lineHorizont {
@@ -191,7 +256,18 @@ body {
     letter-spacing: 0px;
     /* margin-left: 5px; */
     /* color: rgb(0, 0, 0); */
-    width: 28px;
+    width: 200px;
+}
+
+.lineIphoneBottom {
+    position: absolute;
+    left: 878px;
+    top: 895px;
+    z-index: 3;
+    height: 5px;
+    width: 150px;
+    border-radius: 3px;
+    background-color: white;
 }
 
 .bankPayer {
@@ -390,6 +466,7 @@ body {
 
 .textDescription {
     left: 764px;
+    /* width: fit-content; */
 }
 
 
